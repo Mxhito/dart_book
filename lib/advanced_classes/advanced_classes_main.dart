@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'inheritance.dart';
 import 'mini_ex_inheritance.dart';
 import 'abstract.dart';
@@ -6,6 +8,7 @@ import 'mini_ex_interfaces.dart';
 import 'mixin.dart';
 import 'mini_ex_mixin.dart';
 import 'extension_methods.dart';
+import 'advanced_classes_challenges.dart';
 
 void advancedClassesMain() {
   //* Extending classes (Inheritance)
@@ -45,13 +48,13 @@ void advancedClassesMain() {
   print('\n');
 
   //* Abstract classes
-  Animal platypus =
-      Platypus(); // So at compile time, Dart treats platypus like an Animal even though at runtime Dart knows it’s a Platypus
-  print(platypus.isAlive);
-  platypus.eat();
-  platypus.move();
-  //platypus.layEggs();
-  print(platypus);
+  //So at compile time, Dart treats platypus like an Animal even though at runtime Dart knows it’s a Platypus
+  //Animal platypus = Platypus();
+  // print(platypus.isAlive);
+  // platypus.eat();
+  // platypus.move();
+  // platypus.layEggs();
+  // print(platypus);
 
   print('\n');
 
@@ -74,10 +77,10 @@ void advancedClassesMain() {
   print('\n');
 
   //*MIxin
-  final platypusMixin = Platypus();
-  final robin = Robin();
-  platypusMixin.layEggs();
-  robin.layEggs();
+  // final platypusMixin = Platypus();
+  // final robin = Robin();
+  // platypusMixin.layEggs();
+  // robin.layEggs();
 
   //Mini-exercises
   miniExMixin();
@@ -87,6 +90,8 @@ void advancedClassesMain() {
   //*Extension methods
   extensionMethods();
 
+  print('\n');
+
   //Challenges
-  
+  advClassesEx1();
 }
