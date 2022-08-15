@@ -10,6 +10,13 @@ void extensionMethods() {
   final revealed = secret.decoded;
   print(revealed);
 
+  print('\n');
+
+  final autorSms =
+      r'Uif!tfdsfu!up!mfbsojoh!Ebsu!xfmm!jt!up!dg"ewtkqwu"cpf"lwuv"vt{"vjkpiu0"Vlqfh#|rx*uh#uhdglqj#wklv/#wkdw#reylrxvo|#ghvfulehv#|rx1#Kssh$nsf%';
+  print(autorSms.decoded);
+  //The secret to learning Dart well is to curious and just try things. Since you're reading this, that obviously describes you. Good job!
+
   //Int extention
   print(5.cubed);
 
@@ -24,7 +31,7 @@ extension on String {
   }
 
   String get decoded {
-    return _code(-1);
+    return _code(-4);
   }
 
   String _code(int step) {

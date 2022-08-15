@@ -11,15 +11,15 @@ class FakeWebService implements DataRepository {
   }
 }
 
-class AnotherClass {
-  int myField = 42;
-  void myMethod() => print(myField);
-}
+// class AnotherClass {
+//   int myField = 42;
+//   void myMethod() => print(myField);
+// }
 
-class SomeClass implements AnotherClass {
-  @override
-  int myField = 0;
+// class SomeClass implements AnotherClass {
+//   @override
+//   int myField = 0;
 
-  @override
-  void myMethod() => print('Hello');
-}
+//   @override
+//   void myMethod() => print('Hello');
+// }

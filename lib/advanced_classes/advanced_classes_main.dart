@@ -1,5 +1,7 @@
 // ignore_for_file: unused_import
 
+import 'dart:convert';
+
 import 'inheritance.dart';
 import 'mini_ex_inheritance.dart';
 import 'abstract.dart';
@@ -65,11 +67,11 @@ void advancedClassesMain() {
 
   print('\n');
 
-  final someClass = SomeClass();
-  print(someClass.myField);
-  someClass.myMethod();
+  // final someClass = SomeClass();
+  // print(someClass.myField);
+  // someClass.myMethod();
 
-  print('\n');
+  // print('\n');
 
   //Mini-exercises
   miniExInterfaces();
@@ -94,4 +96,12 @@ void advancedClassesMain() {
 
   //Challenges
   advClassesEx1();
+
+  print('\n');
+
+  advClassesEx2();
+
+  print('\n');
+
+  advClassesEx3();
 }
