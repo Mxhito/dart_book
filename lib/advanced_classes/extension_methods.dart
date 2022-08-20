@@ -15,7 +15,7 @@ void extensionMethods() {
   final autorSms =
       r'Uif!tfdsfu!up!mfbsojoh!Ebsu!xfmm!jt!up!dg"ewtkqwu"cpf"lwuv"vt{"vjkpiu0"Vlqfh#|rx*uh#uhdglqj#wklv/#wkdw#reylrxvo|#ghvfulehv#|rx1#Kssh$nsf%';
   print(autorSms.decoded);
-  //The secret to learning Dart well is to curious and just try things. Since you're reading this, that obviously describes you. Good job!
+  //! The secret to learning Dart well is to curious and just try things. Since you're reading this, that obviously describes you. Good job!
 
   //Int extention
   print(5.cubed);
