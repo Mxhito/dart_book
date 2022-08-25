@@ -2,6 +2,7 @@ void callBacks() {
   //Getting the result with callbacks
   print('Before the future');
 
+  // ignore: unused_local_variable
   final myFuture = Future<int>.delayed(
     Duration(seconds: 1),
     () => 42,

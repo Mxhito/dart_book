@@ -15,6 +15,4 @@ Future<void> asyncWait() async {
   }
 
   print('After the future');
-
-  //Asynchronous network requests
 }
